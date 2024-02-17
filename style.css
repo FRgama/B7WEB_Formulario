@@ -43,6 +43,12 @@ a
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+
+.form_termos
+{
+    text-align: center;
+    
+}
 .form_direito
 {
     color: #444;
@@ -121,11 +127,29 @@ a
     border: none;
 }
 
+.autor
+{
+    margin-top: 10%;
+    color: #faf0e6;
+}
+
+.autor a
+{
+    color: #cca3ff;
+}
+
 @media (max-width: 700px)
 {
+
+    body
+    {
+        background-color: #444
+    }
     .container
     {
-        margin: 0;
+        margin: auto;
+        width: auto;
+        
     }
     .form
     {
@@ -138,4 +162,24 @@ a
         width: 100%;
         padding: 30px;
     }   
+
+    h1
+    {
+        display: none;
+    }
+
+    .form_botao
+    {
+        width: 90%;
+        margin-left: 10px;
+    }
+    .form_esquerdo form
+    {
+        margin-top: 30px;
+    }
+
+    .autor
+    {
+        margin-top: 5%;
+    }
 }
